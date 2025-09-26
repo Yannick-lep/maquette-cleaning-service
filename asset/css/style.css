@@ -174,3 +174,63 @@ html {font-size: 62.5%;}
     border: 1px solid #f7f7f7;
     cursor: pointer;
 }
+
+.service {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 3rem;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.service-block {
+    background: #f7f7f7;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+}
+.servive-block:hover {
+    transform: translateY(-8px);
+}
+
+.service-block img {
+    max-width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-block h2 {
+    font-size: 2.4rem;
+    color: #0a0500;
+    margin-bottom: 1rem;
+    font-family: var(--font-title);
+}
+
+.service-block p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+.checkList {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+    margin-top: 2rem;   
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.checkList i {
+    color: #0a0500;
+    font-size: 1.8rem;
+}
+ .btn-primary {
+    background: ;
+    color: #f7f7f7;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+ }
